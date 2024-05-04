@@ -1,5 +1,5 @@
-import Task from "../src/models/tasks.js";
-import User from "../src/models/users.js";
+import Task from "../models/tasks.js";
+import User from "../models/users.js";
 
 const deleteTask = async (req, res) => {
   const taskId = req.params.taskId;
