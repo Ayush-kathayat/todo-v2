@@ -48,7 +48,7 @@ app.use(
     saveUninitialized: true,
     store: MongoStore.create({
       mongoUrl:
-        process.env.MONGO_URI || "mongodb://localhost:27017/todo-v2-backend",
+        process.env.MONGO_URI,
       collectionName: "sessions",
     }),
     cookie: {
