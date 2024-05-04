@@ -1,0 +1,84 @@
+.input-task-container {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Add this line */
+  width: 100%;
+  margin-bottom : 4rem;
+  overflow: hidden;
+  position: sticky;
+  
+}
+
+.task-input-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%; /* Add this line */
+  position: relative;
+}
+
+.task-input {
+  width: 100%;
+  height: 3.4rem;
+  background-color: var(--background);
+  outline: none;
+  border: 1px solid var(--background);
+  border-radius: 50px;
+  color: var(--text);
+  font-size: var(--font-size-xlarge);
+  padding-left: 1.3rem;
+}
+
+.task-add-btn {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  background-color: var(--primary);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 2px solid var(--primary);
+  transition: 0.3s ease-in-out;
+}
+
+.task-add-btn img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: auto;
+  display: block;
+  padding: 0.2rem;
+  transition: 0.3s ease-in-out;
+}
+
+
+
+.task-add-btn:hover {
+  /* scale: 1.2; */
+  border: 2px solid var(--accent);
+  background-color: var(--background);
+  transition: 0.3s ease-in-out;
+}
+
+.search-button {
+  height: 2.6rem;
+  margin-left: 1rem;
+  background-color: var(--accent);
+  border: 2px solid var(--primary);
+  width: 25%; /* Add this line */
+  color: var(--background);
+  font-size: var(--font-size-large);
+  font-family: var(--cta-font);
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: var(--background);
+  color: var(--accent);
+  font-size: var(--font-size-large);
+  border: 2px solid var(--accent);
+  transition: 0.3s ease-in-out;
+}

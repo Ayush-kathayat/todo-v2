@@ -1,0 +1,27 @@
+.task-wrapper{
+    /* display: flex; */
+   
+    /* justify-content: center; */
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 100%;
+    max-width: 40rem;
+    height: 78vh;
+    padding: 0 20px;
+    border-radius: 50px;
+    background-color: var(--primary);
+
+}
+
+.home-wrapper {
+  background: url('/home.svg') var(--background);
+}
+
+.task-wrapper-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 0.8rem;
+    
+}

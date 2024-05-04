@@ -1,0 +1,84 @@
+.landing-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.land-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.land-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+}
+
+.app-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.2rem;
+}
+
+
+.app-title {
+  font-size: var(--font-size-xdinormous);
+  color: var(--text);
+  font-family: var(--cta-font);
+  text-transform: uppercase;
+  letter-spacing: 0.6em;
+ 
+}
+
+.app-desc {
+  font-size: var(--font-size-xlarge);
+  color: var(--text);
+  font-family: var(--primary-font);
+  text-align: center;
+  margin-top: 1.2rem;
+  letter-spacing: 0.1em;
+
+}
+
+.switch-form-link {
+  /* color: blue; */
+  cursor: pointer;
+  font-size: var(--font-size-large);
+  color: var(--visited);
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.switch-form-link:hover {
+  color: var(--accent);
+  transition: color 0.3s;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 500ms;
+}

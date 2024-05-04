@@ -1,0 +1,68 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: var(--primary);
+    color: #fff;
+    width: 80%;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.app-name{
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-bolder);
+    font-family: var(--primary-font);
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.user p{
+    margin-right: 1rem;
+    font-size : var(--font-size-huge);
+    font-weight: var(--font-weight-bold);
+    font-family: var(--secondary-font);
+    text-transform: capitalize;
+    background-color: var(--background);
+    padding: 0.2rem 0.7rem;
+    border : 2px solid var(--accent);
+    border-radius: 5px;
+    color : var(--accent);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.user p:hover{
+    background-color: var(--accent);
+    color: var(--primary);
+}
+
+.logout-icon{
+    font-size: 1.5rem;
+    color: var(--accent);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.logout-wrapper{
+    background-color: var(--background);
+    height: 3rem;
+    width: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--background);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.logout-wrapper:hover{
+    border: 2px solid var(--accent);
+    background-color: var(--primary);
+}
