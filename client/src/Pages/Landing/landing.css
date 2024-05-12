@@ -82,3 +82,76 @@
   opacity: 0;
   transition: opacity 500ms;
 }
+
+@media screen and (max-width: 1440px) {
+  .landing-wrapper {
+    height: 100%;
+  }
+
+  .land-left {
+    width: 100%;
+    height: 50%;
+   
+  }
+
+  .land-right {
+    width: 100%; width: 100%;
+    height: 50%;
+    height: 50%;
+  }
+
+  .app-info {
+    margin-bottom: 0.5rem;
+  }
+
+  .app-title {
+    font-size: var(--font-size-xmammoth);
+    letter-spacing: 0.2em;
+    margin-top: 1.8rem;
+  }
+
+  .app-desc {
+    font-size: var(--font-size-large);
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .landing-wrapper {
+    height: 100%;
+  }
+
+  .land-left {
+    display: none;
+  }
+
+  .land-right {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .app-info {
+    margin-bottom: 0.5rem;
+  }
+
+  .app-title {
+    letter-spacing: 0.2em;
+    margin-top: 1.8rem;
+  }
+
+  .app-desc {
+    font-size: var(--font-size-large);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .app-title {
+    font-size: var(--font-size-mammoth);
+    letter-spacing: 0.1em;
+    margin-top: 1.8rem;
+  }
+
+  .app-desc {
+    font-size: var(--font-size-large);
+  }
+}
